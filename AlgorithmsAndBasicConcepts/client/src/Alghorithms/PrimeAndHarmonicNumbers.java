@@ -21,6 +21,42 @@ public class PrimeAndHarmonicNumbers {
             sum += 1.0 / i;
         return sum;
     }
+    //Print prime numbers in the range from 0 to specific number
+    /*
+    
+    Scanner s = new Scanner(System.in);
+        
+        int number = Integer.parseInt(s.nextLine());                 // Reading input from STDIN
+        int i = 1;
+        String primeNums = "";
+if(0>=number&& number>1000){
+    System.out.println("Entered number is not valid");
+
+}
+else{
+
+    for( i = 1; i<=number; i++){
+        int count = 0;
+        for(int num=i ; num>=1;num--){
+        if(i%num==0){
+            
+            count+=1;
+        }}
+        if (count ==2)
+	 {
+	    //Appended the Prime number to the String
+	    primeNums = primeNums + i + " ";
+	 }
+    }
+
+	}
+	      System.out.println(primeNums);
+
+
+    }
+    
+    
+    */
 
 
     public static void main(String[] args) {
